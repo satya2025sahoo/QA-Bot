@@ -1,5 +1,3 @@
-Here's a visually appealing version of your `README.md` file in Markdown:
-
 ---
 
 # 🧠 Chat-Style QA Bot
@@ -111,20 +109,6 @@ This project is licensed under the **MIT License**. Check the `LICENSE` file for
 
 ---
 
-## 🤝 Contributing
-
-We welcome all kinds of contributions! If you would like to contribute:
-
-1. **Fork the repository**.
-2. **Create a branch**: `git checkout -b feature/AmazingFeature`.
-3. **Commit your changes**: `git commit -m 'Add some AmazingFeature'`.
-4. **Push to the branch**: `git push origin feature/AmazingFeature`.
-5. **Open a pull request**.
-
----
-
 Happy coding! 💻✨
 
----
 
-Let me know if you'd like to add or tweak anything else!
