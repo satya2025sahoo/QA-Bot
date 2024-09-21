@@ -28,8 +28,8 @@ Ensure the following dependencies are installed before setting up the project:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository_url>
-cd <repository_folder>
+git clone <[repository_url](https://github.com/satya2025sahoo/QA-Bot.git)>
+cd <[repository_folder](https://github.com/satya2025sahoo/QA-Bot.git)>
 ```
 
 ### Step 2: Configure Google API Credentials
