@@ -24,16 +24,16 @@ import warnings
 import os
 
 # Set up your Google API credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/content/organic-dryad-434803-u3-4b45fed68b4b.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/content/your Google API credentials.json"
 warnings.filterwarnings("ignore")
 
 # Set up Google Generative AI API key
-genai.configure(api_key='AIzaSyDFqHznL-EB9_CHIGFrwVfwmUBCmk4nRzc')
+genai.configure(api_key='Google api key')
 
 from llama_index.core.node_parser import SentenceSplitter
 
-Settings.llm = Gemini(models='gemini-pro', api_key='AIzaSyDFqHznL-EB9_CHIGFrwVfwmUBCmk4nRzc')
-Settings.embed_model = GeminiEmbedding(model_name="models/embedding-001", api_key='AIzaSyDFqHznL-EB9_CHIGFrwVfwmUBCmk4nRzc')
+Settings.llm = Gemini(models='gemini-pro', api_key='Google api key')
+Settings.embed_model = GeminiEmbedding(model_name="models/embedding-001", api_key='Google api key')
 Settings.node_parser = SentenceSplitter(chunk_size=512, chunk_overlap=20)
 Settings.num_output = 512
 Settings.context_window = 3900
