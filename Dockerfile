@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy only the necessary files into the container
 COPY app.py .
 COPY Backend.py .
-COPY organic-dryad-434803-u3-4b45fed68b4b.json .
+COPY your Google API credentials.json .
 
 # Expose the port that Streamlit will run on (default is 8501)
 EXPOSE 8501
