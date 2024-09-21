@@ -1,0 +1,8 @@
+chromadb==0.5.5
+google-generativeai==0.5.4
+llama-index==0.11.10
+llama-index-embeddings-gemini==0.2.0
+llama-index-llms-gemini==0.3.5
+llama-index-vector-stores-chroma==0.2.0
+PyPDF2==2.12.1
+streamlit==1.35.0
